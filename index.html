@@ -1,0 +1,48 @@
+<html>
+<head>
+<title> Ejemplo CSS JavaScript </title>
+<link href="CSS/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+   function mostrar1() {
+       document.getElementById("container2").style.display="block";
+	   document.getElementById("container1").style.display="none";
+	   
+   
+   }
+   function mostrar2(){
+   document.getElementById("container2").style.display="none";
+   document.getElementById("container1").style.display="block";
+   
+   }
+   
+   </script>
+</head>
+<body>
+  <div id="header"> </div>
+  
+  <div id="container2" class="container2" style="display:none;"> 
+  <span onclick="mostrar2()"> Regresar</span>
+  <form>
+		   <h2>LOGIN</h2>
+		   <input type="text" placeholder="&#128272; Usuario" >
+		   <input type="password" placeholder="&#128272; Contraseña">
+		   
+		   <input type="submit" value="Inicia Sesion">
+		   </form>
+  </div>
+  
+  <div id="container1" class="container1" >
+  <span onclick="mostrar1()"> <h2> Iniciar Sesion </h2> </span>
+  </div>
+  
+  
+  <div name="footer"> </div>
+  
+
+</body>
+
+</html>
+</script>
+</head>
+<body>
+ 
